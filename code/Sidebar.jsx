@@ -4,7 +4,7 @@ const MyComponent = ({initialSidebarState}) => {
   const [showSidebar, setShowSidebar] = useState(initialSidebarState);
   
   return (
-    <div>,
+    <div>
       <button onClick={() => setShowSidebar(!showSidebar)}>
         Toggle sidebar
       </button>
